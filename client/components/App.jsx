@@ -125,21 +125,24 @@ const styles = {
 		display: 'table-cell',
 		verticalAlign: 'middle',
 		textAlign: 'center',
-		fontFamily: 'Helvetica',
+		// fontFamily: 'Arial, Helvetica, sans-serif',
+		font: '400 100px/1.3 \'Berkshire Swash\', Helvetica, sans-serif',
+		color: '#2b2b2b',
+		fontSize: '18px'
 	},
 
 	header: {
-		paddingBottom: '10px',
-		fontSize: '14px'
+		paddingBottom: '30px',
 	},
 
 	title: {
+		marginBottom: '15px',
 		fontWeight: 'bold',
-		fontSize: '34px'
+		fontSize: '50px'
 	},
 
 	pickerCont: {
-		paddingBottom: '30px'
+		paddingBottom: '50px',
 	},
 
 	result: {
@@ -148,6 +151,8 @@ const styles = {
 
 	resultLabel: {
 		padding: '10px',
-		border: '1px solid #ccc'
+		border: '1px solid #ccc',
+		fontSize: '26px',
+		textShadow: '1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15)',
 	}
 }
