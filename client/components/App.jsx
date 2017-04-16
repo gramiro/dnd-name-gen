@@ -122,6 +122,8 @@ export default class App extends React.Component {
 
 const styles = {
 	container: {
+		display: 'table-cell',
+		verticalAlign: 'middle',
 		textAlign: 'center',
 		fontFamily: 'Helvetica',
 	},
