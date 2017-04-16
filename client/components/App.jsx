@@ -2,8 +2,8 @@ import React from 'react';
 import orc from 'raw-loader!../races/orc.txt';
 import dwarfMale from 'raw-loader!../races/dwarfMale.txt';
 import dwarfFemale from 'raw-loader!../races/dwarfFemale.txt';
-import elveFemale from 'raw-loader!../races/elveFemale.txt';
-import elveMale from 'raw-loader!../races/elveMale.txt';
+import elfFemale from 'raw-loader!../races/elfFemale.txt';
+import elfMale from 'raw-loader!../races/elfMale.txt';
 import gnomeFemale from 'raw-loader!../races/gnomeFemale.txt';
 import gnomeMale from 'raw-loader!../races/gnomeMale.txt';
 import humanFemale from 'raw-loader!../races/humanFemale.txt';
@@ -36,11 +36,11 @@ export default class App extends React.Component {
 			case 'dwarf-female':
 				file = dwarfFemale;
 				break;
-			case 'elve-female':
-				file = elveFemale;
+			case 'elf-female':
+				file = elfFemale;
 				break;
-			case 'elve-male':
-				file = elveMale;
+			case 'elf-male':
+				file = elfMale;
 				break;
 			case 'gnome-female':
 				file = gnomeFemale;
@@ -92,7 +92,7 @@ export default class App extends React.Component {
 						<option value='orc'> Orc </option>
 						<option value='dwarf'> Dwarf </option>
 						<option value='human'> Human </option>
-						<option value='elve'> Elve </option>
+						<option value='elf'> Elf </option>
 						<option value='halfling'> Halfling </option>
 						<option value='gnome'> Gnome </option>
 					</select>	
