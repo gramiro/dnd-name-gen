@@ -2,6 +2,10 @@ function capitalize(s){
 	return s.toLowerCase().replace( /\b./g, function(a){ return a.toUpperCase(); } );
 }
 
+/*
+	Thanks to Alexandre Giraud. Some of this code is based off his work on fantasygen.
+*/
+
 function Pointer(char) {
 	this.character = char;
 	this.adjacent = [];
