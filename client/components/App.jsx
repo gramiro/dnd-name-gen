@@ -125,7 +125,6 @@ const styles = {
 		display: 'table-cell',
 		verticalAlign: 'middle',
 		textAlign: 'center',
-		// fontFamily: 'Arial, Helvetica, sans-serif',
 		font: '400 100px/1.3 \'Berkshire Swash\', Helvetica, sans-serif',
 		color: '#2b2b2b',
 		fontSize: '18px'
@@ -136,6 +135,7 @@ const styles = {
 	},
 
 	title: {
+		marginTop: '15px',
 		marginBottom: '15px',
 		fontWeight: 'bold',
 		fontSize: '50px'
